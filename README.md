@@ -12,8 +12,8 @@ To generate a new variable called ``varname`` that stores the Spearman's Rank co
 
 You can optionally—and perhaps most usefully—combine this command with the ``by:`` or ``bysort:`` syntax:
 
-	by A: B = scorr(existingvar1 existingvar1)
-	bysort A: B = scorr(existingvar1 existingvar1)
+	by A: B = scorr(existingvar1 existingvar2)
+	bysort A: B = scorr(existingvar1 existingvar2)
 
 ##Credit
 This extension is a minimally modified version of a program posted by [Nicholas Winter](mailto:nwinter[at]virginia.edu) on the Stata mailinglist on [July 10, 2002](http://www.stata.com/statalist/archive/2002-07/msg00179.html). 
