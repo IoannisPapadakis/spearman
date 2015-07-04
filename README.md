@@ -10,7 +10,7 @@ To generate a new variable called ``varname`` that stores the Spearman's Rank co
 
 	egen newvar = scorr(existingvar1 existingvar2)
 
-You can optionally--and perhaps most usefully--combine this command with the ``by:`` or ``bysort:`` syntax:
+You can optionally—and perhaps most usefully—combine this command with the ``by:`` or ``bysort:`` syntax:
 
 	by A: B = scorr(existingvar1 existingvar1)
 	bysort A: B = scorr(existingvar1 existingvar1)
